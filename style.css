@@ -213,6 +213,22 @@ footer {
     font-size: 24pt;
 }
 
+a:link {
+    color: #1e2127;
+}
+
+a:visited {
+    color: #343841;
+}
+
+a:hover {
+    color: #101114;
+}
+
+a:active {
+    color: #caccc5;
+}
+
 @media all and (min-width: 800px) {
     .group {
       flex-direction: row;
