@@ -157,7 +157,7 @@ header h2 {
 
 .projects {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #1e2127;
 }
 
@@ -166,22 +166,17 @@ header h2 {
 }
 
 .group {
-    isplay: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    text-align: center;
-    margin: 0 auto;
-}
-
-@media (min-width: 800px) {
-    .group {
-      flex-direction: row;
-    }
+    
 }
 
 .item {
     flex: 1;
+    max-width: 20%;
+    text-align: center;
 }
 
 .item img {
@@ -218,3 +213,8 @@ footer {
     font-size: 24pt;
 }
 
+@media all and (min-width: 800px) {
+    .group {
+      flex-direction: row;
+    }
+}
