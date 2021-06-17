@@ -72,8 +72,12 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 2% 5%;
+}
+
+section.portfolio div.item h2 {
+  text-align: center;
 }
 
 section h2 {
@@ -104,6 +108,12 @@ section ul {
 img {
   width: 70%;
   margin: 0 auto;
+  border-radius: 5px;
+}
+
+img.portfolioImage {
+  height: 9rem;
+  width: 100%;
 }
 
 section a:link {
