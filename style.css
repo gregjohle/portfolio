@@ -1,169 +1,188 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 header {
-    background-color: #1e2127;
-    color: #caccc5;
-    padding: 1%;
-    text-align: center;
-    padding-left: 30%;
-    margin: 0 auto;
+  background-color: #1e2127;
+  color: #caccc5;
+  padding: 1%;
+  text-align: center;
+  padding-left: 30%;
+  margin: 0 auto;
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 42pt;
-    margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 42pt;
+  margin: 0 auto;
 }
 
 header nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 header nav ul {
-    display: flex;
-    flex-direction: row;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 0;
 }
 
 header nav ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 header nav ul li a {
-    color: #b0b1ad;
-    text-decoration: none;
-    padding: 0 20px 0 0;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 auto;
+  color: #b0b1ad;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
 }
 
 header nav ul li a:last-child a {
-    padding-right: 0;
+  padding-right: 0;
 }
 
 header nav ul li a:hover {
-    color: #8b8b83;
+  color: #8b8b83;
 }
 
 main {
-    background-color: #caccc5;
+  background-color: #caccc5;
+  margin: 0 auto;
 }
 
 section.about {
-    background-color: #1e2127;
-    padding: 1% 2%;
+  background-color: #1e2127;
+  padding: 1% 2%;
+  margin: 0 auto;
 }
 
-section.about h2, section.about p, section.about ul {
-    color: #caccc5;
+section.about h2,
+section.about p,
+section.about ul {
+  color: #caccc5;
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 5%;
 }
 
 section h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #1e2127;
-    font-size: 24pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1e2127;
+  font-size: 24pt;
 }
 
 section h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #1e2127;
-    font-size: 20pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1e2127;
+  font-size: 20pt;
 }
 
-section p, section ul {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #1e2127;
-    font-size: 20pt;
+section p,
+section ul {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1e2127;
+  font-size: 20pt;
 }
 
-.item{
-    flex: 1;
-    width: 45%;
-    padding: 2%;
+.item {
+  flex: 1;
+  width: 45%;
+  padding: 2%;
 }
 
 img {
-    width: 70%;
-    margin: 0 auto;
+  width: 70%;
+  margin: 0 auto;
 }
 
 section a:link {
-    color: #1e2127;
+  color: #1e2127;
 }
 
 section a:visited {
-    color: #8b8b83;
+  color: #8b8b83;
 }
 
 section a:hover {
-    color: #8b8b83;
+  color: #8b8b83;
 }
 
 section a:active {
-    color: #1e2127;
+  color: #1e2127;
 }
 
 form label {
-    display: block;
-    font-size: 20pt;
-    margin-bottom: 5px;
-    color: #1e2127;
-    font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  font-size: 20pt;
+  margin-bottom: 5px;
+  color: #1e2127;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-form input[type=text], form input[type=email], form textarea {
-    color: #caccc5;
-    background-color: #1e2127;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18pt;
-    width: 100%;
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  color: #caccc5;
+  background-color: #1e2127;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+  width: 100%;
 }
 
 form textarea {
-    height: 10%;
+  height: 10%;
 }
 
 form button {
-    background-color: #1e2127;
-    color: #caccc5;
-    padding: 1% 2%;
-    border-radius: 10%;
+  background-color: #1e2127;
+  color: #caccc5;
+  padding: 1% 2%;
+  border-radius: 10%;
 }
 
 iframe {
-    width: 100%;
+  width: 100%;
 }
 
 footer {
-    background-color: #1e2127;
-    color: #caccc5;
-    font-size: 20pt;
-    padding: 1% 0 1% 3%;
+  background-color: #1e2127;
+  color: #caccc5;
+  font-size: 20pt;
+  padding: 1% 0 1% 3%;
 }
 
 @media all and (min-width: 900px) {
-    header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 0;
-    }
-    section {
-        flex-direction: row;
-    }
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+  }
+  section {
+    flex-direction: row;
+  }
+}
+
+@media all and (max-width: 400px) {
+  header nav ul li a {
+    font-size: 0.75rem;
+  }
+}
+
+@media all and (max-width: 500px) {
+  a.email {
+    font-size: 0.7rem;
+  }
 }
